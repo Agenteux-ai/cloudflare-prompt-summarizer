@@ -2,6 +2,9 @@ export default {
   async fetch(request, env) {
     // Keep these secret... Include as Authorization header for API Key usage.
     var apiKeys = [
+      // Enter your API keys here. UUIDs suggested.
+      "your_api_key_1",
+      "your_api_key_2"
     ];
 
     if (!request.headers.has('Authorization')) {
